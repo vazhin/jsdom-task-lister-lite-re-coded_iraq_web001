@@ -14,7 +14,7 @@ function addTask (event){
 
   todoList.appendChild(task);
   todoList.appendChild(deleteBtn);
-  
+
 
   if(priority.value === 1){
     task.style.color = "red";
