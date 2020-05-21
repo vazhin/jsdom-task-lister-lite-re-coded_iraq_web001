@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const todoList = document.querySelector("#tasks");
   const taskText = document.querySelector("#new-task-description");
   const addTaskButton = document.querySelector("#submit-button");
-  const addTaskButton = document.querySelector("#select-priority");
+  const priority = document.querySelector("#select-priority");
 
   addTaskButton.addEventListener('click', addTask);
 
@@ -14,8 +14,12 @@ function addTask (event){
 
   todoList.appendChild(task);
   todoList.appendChild(deleteBtn);
-
   task.innerText = `${taskText.value}`;
+
+  if(priority.value === 1){
+    task.style.color = "red";
+  }
+  
   deleteBtn.innerText = `❌`;
   taskText.value = "";
 
