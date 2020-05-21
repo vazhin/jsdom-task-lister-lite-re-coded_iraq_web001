@@ -18,6 +18,11 @@ function addTask (event){
   deleteBtn.innerText = `❌`;
   taskText.value = "";
 
+  deleteBtn.addEventListener('click', function (event){
+    event.preventDefault();
+    task.remove();
+  })
+
 }
 
 });
