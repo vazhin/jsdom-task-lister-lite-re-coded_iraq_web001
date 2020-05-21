@@ -21,6 +21,7 @@ function addTask (event){
   deleteBtn.addEventListener('click', function (event){
     event.preventDefault();
     task.remove();
+    deleteBtn.remove();
   })
 
 }
