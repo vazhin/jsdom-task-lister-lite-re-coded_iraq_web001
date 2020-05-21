@@ -9,10 +9,14 @@ document.addEventListener("DOMContentLoaded", () => {
 function addTask (event){
   event.preventDefault();
   const task = document.createElement("li");
-  task.innerText = `${taskText.value}`;
+  const deleteBtn = document.createElement("button");
+  
   todoList.appendChild(task);
-  taskText.value = "";
+  todoList.appendChild(deleteBtn);
 
+  task.innerText = `${taskText.value}`;
+  taskText.value = "";
+  
 }
 
 });
