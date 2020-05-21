@@ -19,6 +19,12 @@ function addTask (event){
   if(priority.value === "1"){
     task.style.color = "red";
   }
+  else if(priority.value === "2"){
+    task.style.color = "yellow";
+  }
+  else if(priority.value === "3"){
+    task.style.color = "green";
+  }
 
   task.innerText = `${taskText.value}`;
   deleteBtn.innerText = `❌`;
