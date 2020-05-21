@@ -1,3 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
+
+  const todoList = document.querySelector("#tasks");
+  const todoList = document.querySelector("#tasks");
+
+
+
+
 });
