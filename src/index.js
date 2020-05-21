@@ -15,6 +15,7 @@ function addTask (event){
   todoList.appendChild(deleteBtn);
 
   task.innerText = `${taskText.value}`;
+  deleteBtn.innerText = `remove`;
   taskText.value = "";
 
 }
