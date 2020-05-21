@@ -10,13 +10,13 @@ function addTask (event){
   event.preventDefault();
   const task = document.createElement("li");
   const deleteBtn = document.createElement("button");
-  
+
   todoList.appendChild(task);
   todoList.appendChild(deleteBtn);
 
   task.innerText = `${taskText.value}`;
   taskText.value = "";
-  
+
 }
 
 });
