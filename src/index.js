@@ -19,7 +19,7 @@ function addTask (event){
   if(priority.value === 1){
     task.style.color = "red";
   }
-  
+
   deleteBtn.innerText = `❌`;
   taskText.value = "";
 
