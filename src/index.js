@@ -6,8 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   addTaskButton.addEventListener('click', addTask);
 
-function addTask (){
-
+function addTask (event){
+  event.preventDefault();
+  const task = document.creatElement("li");
 }
 
 });
