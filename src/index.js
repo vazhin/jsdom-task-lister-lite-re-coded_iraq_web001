@@ -12,7 +12,7 @@ function addTask (event){
   task.innerText = `${taskText.value}`;
   todoList.appendChild(task);
   taskText.value = "";
-  
+
 }
 
 });
