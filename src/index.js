@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   addTaskButton.addEventListener('click', addTask);
 
 function addTask (){
-  
+
 }
 
 });
