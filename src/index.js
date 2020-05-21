@@ -4,7 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const taskText = document.querySelector("#new-task-description");
   const addTaskButton = document.querySelector("#submit-button");
 
+  addTaskButton.addEventListener('click', addTask);
 
-
+function addTask (){
+  
+}
 
 });
