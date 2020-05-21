@@ -14,12 +14,13 @@ function addTask (event){
 
   todoList.appendChild(task);
   todoList.appendChild(deleteBtn);
-  task.innerText = `${taskText.value}`;
+  
 
   if(priority.value === 1){
     task.style.color = "red";
   }
 
+  task.innerText = `${taskText.value}`;
   deleteBtn.innerText = `❌`;
   taskText.value = "";
 
