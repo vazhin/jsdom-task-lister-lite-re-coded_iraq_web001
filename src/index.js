@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function addTask (event){
   event.preventDefault();
   const task = document.createElement("li");
+  task.innerText = `${taskText.value}`;
   todoList.appendChild(task);
 }
 
