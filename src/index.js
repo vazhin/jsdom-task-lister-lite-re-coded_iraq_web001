@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function addTask (event){
   event.preventDefault();
-  const task = document.creatElement("li");
+  const task = document.createElement("li");
 }
 
 });
