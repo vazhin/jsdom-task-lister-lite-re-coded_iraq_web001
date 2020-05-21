@@ -11,6 +11,8 @@ function addTask (event){
   const task = document.createElement("li");
   task.innerText = `${taskText.value}`;
   todoList.appendChild(task);
+  taskText.value = "";
+  
 }
 
 });
